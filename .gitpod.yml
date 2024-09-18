@@ -14,7 +14,7 @@ tasks:
     chmod u+x BandageNG
 
 - name: Run Bandage-NG
-  command: "/workspace/BandageNG"
+  command: "ls -lA /workspace && /workspace/BandageNG"
     
 ports:
   - port: 5900
