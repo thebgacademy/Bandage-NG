@@ -11,12 +11,7 @@ tasks:
     wget https://github.com/asl/BandageNG/releases/download/continuous/BandageNG-Linux-8dd0544.AppImage
     mv BandageNG-Linux-8dd0544.AppImage BandageNG
     chmod u+x BandageNG
-    
-    gp sync-done bandage-install
-
-- name: Run Bandage-NG
   command: |
-    gp sync-await bandage-install
     ls -lA /workspace && /workspace/BandageNG"
     
 ports:
