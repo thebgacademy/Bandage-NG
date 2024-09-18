@@ -11,6 +11,8 @@ tasks:
     wget https://github.com/asl/BandageNG/releases/download/continuous/BandageNG-Linux-8dd0544.AppImage
     mv BandageNG-Linux-8dd0544.AppImage BandageNG
     chmod u+x BandageNG
+  command: |
+    ls -lA /workspace && /workspace/BandageNG
     
 ports:
   - port: 5900
