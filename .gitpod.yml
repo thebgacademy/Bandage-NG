@@ -1,9 +1,18 @@
 image: gitpod/workspace-full-vnc
 
+tasks:
 - name: SETUP
   init: |
-    echo "Hello there - Welcome to GitPod"
+    cd /workspace
+    
+    # Download BandageNG
+    wget https://github.com/asl/BandageNG/releases/download/continuous/BandageNG-Linux-8dd0544.AppImage
+    mv BandageNG-Linux-8dd0544.AppImage BandageNG
+    chmod u+x BandageNG
 
+    cd /workspace
+    clear
+    
 ports:
   - port: 5900
     onOpen: ignore
