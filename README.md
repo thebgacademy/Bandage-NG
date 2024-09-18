@@ -11,14 +11,14 @@ Anton Korobeynikov - ITMO University (part-time)
 
 ## Description
 
-Bandage-NG is a GUI program that allows users to interact with the assembly graphs made by de novo assemblers such as SPAdes, MEGAHIT and others.
+Bandage-NG is a GUI program that allows users to explore, analyse and interact with the assembly graphs in GFAv1 format made by de novo assemblers such as SPAdes, MEGAHIT, Flye and others.
 
 De novo assembly graphs contain not only assembled contigs but also the connections between those contigs, which were previously not easily accessible. Bandage visualises assembly graphs, with connections, using graph layout algorithms. Nodes in the drawn graph, which represent contigs, can be automatically labelled with their ID, length or depth. Users can interact with the graph by moving, labelling and colouring nodes. Sequence information can also be extracted directly from the graph viewer. By displaying connections between contigs, Bandage opens up new possibilities for analysing and improving de novo assemblies that are not possible by looking at contigs alone.
-
 
 ## Prerequisites
 
 1. Understanding of linux command line basics
+3. Understanding of genome assembly process, terminology and results (contigs, scaffolds, assembly graphs)
 
 >[!warning] "Please make sure you MEET THE PREREQUISITES and READ THE DESCRIPTION above"
 >
