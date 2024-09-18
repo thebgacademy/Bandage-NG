@@ -2,13 +2,12 @@ image: gitpod/workspace-full-vnc
 
 tasks:
 - name: SETUP
-  init: |
-    cd /workspace
-
+  before: |
     # install fuse as a pre-requisite for AppImage
     sudo apt -y install libfuse2 fuse
     
     # Download BandageNG
+    cd /workspace
     wget https://github.com/asl/BandageNG/releases/download/continuous/BandageNG-Linux-8dd0544.AppImage
     mv BandageNG-Linux-8dd0544.AppImage BandageNG
     chmod u+x BandageNG
