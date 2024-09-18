@@ -7,7 +7,7 @@ This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgac
 [YouTube Recording](https://www.youtube.com/@thebiodiversitygenomicsacademy) <-- To be updated after BGA24
 
 ## Session Leader(s)
-Anton Korobeynikov - Saint Petersburg State University
+Anton Korobeynikov - ITMO University (part-time)
 
 ## Description
 
