@@ -13,8 +13,8 @@ tasks:
     mv BandageNG-Linux-8dd0544.AppImage BandageNG
     chmod u+x BandageNG
 
-  - name: Run Bandage-NG
-    command: "/workspace/BandageNG"
+- name: Run Bandage-NG
+  command: "/workspace/BandageNG"
     
 ports:
   - port: 5900
