@@ -8,8 +8,8 @@ tasks:
     
     # Download BandageNG
     cd /workspace
-    wget https://github.com/asl/BandageNG/releases/download/continuous/BandageNG-Linux-b8106a7.AppImage
-    mv BandageNG-Linux-b8106a7.AppImage BandageNG
+    wget https://github.com/asl/BandageNG/releases/download/continuous/BandageNG-Linux-ec14f6d.AppImage
+    mv BandageNG-Linux-ec14f6d.AppImage BandageNG
     chmod u+x BandageNG
   command: |
     ls -lA /workspace && /workspace/BandageNG
