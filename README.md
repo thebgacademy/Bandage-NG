@@ -29,5 +29,5 @@ De novo assembly graphs contain not only assembled contigs but also the connecti
 >    If you don't meet the prerequisites or change your mind based on the description or are no longer available at the session time, please email damon at thebgacademy.org to cancel your slot so that someone else on the waitlist might attend.
 
 
-## Instructions
-For Session Leader
+## Slides
+To be added after the session
