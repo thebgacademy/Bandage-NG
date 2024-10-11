@@ -5,6 +5,9 @@ tasks:
   init: |
     # install fuse as a pre-requisite for AppImage
     sudo apt -y install libfuse2 fuse
+
+    # install BandageNG optional deps
+    sudo apt -y install hmmer ncbi-blast+
     
     # Download BandageNG
     cd /workspace
